@@ -1,0 +1,26 @@
+{
+  "name": "departamentos",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "server": "json-server --watch db.json --port 3000",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead"],
+    "development": ["last 1 chrome version"]
+  }
+}
